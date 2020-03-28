@@ -205,6 +205,8 @@
     top: 395px;
     right: 0px;
     position: absolute;
+    color: #000;
+    text-decoration: none;
 }
 
 .feynman__image {
