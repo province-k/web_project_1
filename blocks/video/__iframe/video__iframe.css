@@ -1,0 +1,13 @@
+.video__iframe {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.video__iframe:last-child {
+    margin-right: 0;
+}
