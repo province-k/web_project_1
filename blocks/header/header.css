@@ -13,5 +13,6 @@
     background-color: #F2F2F2;
     position: relative;
     overflow: hidden;
+    z-index: 1;
     /* parameters for the header section */
 }

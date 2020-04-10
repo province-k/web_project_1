@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./pages/index.css" rel="stylesheet" type="text/css">
+    <link href="./pages/index.css" rel="stylesheet">
     <title>Learning how to learn</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
             <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life.
                 <a href="#" class="header__link">Learn more →</a></p>
             <img src="./images/on_the_edge1.png" alt="a person on edge of cliff" class="header__main-illustration">
-            <div class="header__square-pic"></div>
+            <div class="header__square-pic rotation"></div>
         </header>
         <main class="content">
             <section class="description">
@@ -64,10 +64,10 @@
             <section class="video">
                 <h2 class="section-title">TED talks</h2>
                 <p class="section-subtitle">For lovers of procrastination</p>
-                <div class="video__iframe"> 
-                    <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+                <ul class="video__iframes"> 
+                    <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                </ul>
             </section>
 
             <section class="oakley">
@@ -92,7 +92,7 @@
                 <h2 class="feynman__title">The Feynman Technique</h2>
                 <p class="feynman__subtitle">Learn without forgetting.</p>
                 <a href="#" class="feynman__link">More →</a>
-                <img class="feynman__image" src="./images/feynman.png" alt=="An image of fenyman">
+                <img class="feynman__image" src="./images/feynman.png" alt="An image of feynman">
             </section>
 
             <section class="digits">
@@ -140,10 +140,10 @@
                 <div class="khan__container">
                     <p class="khan__author">Salman Khan</p>
                     <h2 class="khan__title">The One World Schoolhouse</h2>
-                    <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
+                    <blockquote class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
                         students worldwide. The One World Schoolhouse is a must-read for all 
                         who are committed to improving education so students everywhere can 
-                        gain the skills and knowledge to be successful in school, careers and life.</p>
+                        gain the skills and knowledge to be successful in school, careers and life.</blockquote>
                     <p class="khan__quote-author">George Lucas</p>
                     <p class="khan__qoute-author-subline">Filmmaker</p>
                     <div class="khan__book-container">
@@ -198,26 +198,34 @@
                         <p class="table__text table__text_theme_dark">Emphasize quantity and speed.</p>
                     </li>
                 </ol>
-                <img src="./images/triangle.svg" class="kaufman__triangle" alt="blue triangle">
+                <div class="kaufman__triangle rotation"></div>
             </section>
 
             <section class="resources">
                 <h2 class="section-title">Useful resources</h2>
                 <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
-                <div class="resources__logo-zone">
-                    <a href="#" class="resources__link">
-                        <img class="resources__logo" src="./images/logo/tedED.png" alt="TedEd logo">
-                    </a>
-                    <a href="#" class="resources__link">
-                        <img class="resources__logo" src="./images/logo/Medium.png" alt="Medium logo">
-                    </a>
-                    <a href="#" class="resources__link">
-                        <img class="resources__logo" src="./images/logo/dezeen.png" alt="De Zeen logo">
-                    </a>
-                    <a href="#" class="resources__link">
-                        <img class="resources__logo" src="./images/logo/goodreads.png" alt="Good Reads logo">
-                    </a>
-                </div>
+                <ul class="resources__logo-zone">
+                    <li>
+                        <a href="#" target="_blank" class="resources__link">
+                            <img class="resources__logo" src="./images/logo/tedED.png" alt="TedEd logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="resources__link">
+                            <img class="resources__logo" src="./images/logo/Medium.png" alt="Medium logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="resources__link">
+                            <img class="resources__logo" src="./images/logo/dezeen.png" alt="De Zeen logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="resources__link">
+                            <img class="resources__logo" src="./images/logo/goodreads.png" alt="Good Reads logo">
+                        </a>
+                    </li>
+                </ul>
             </section>
         </main>
         <footer class="footer">

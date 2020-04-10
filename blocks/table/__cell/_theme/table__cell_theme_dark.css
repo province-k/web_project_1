@@ -1,5 +1,9 @@
 .table__cell_theme_dark {
-    flex-basis: 200px;
+    flex-basis: 200px !important; 
     color: white;
-    margin-top: 80px;
+    margin-top: 80px !important;
 }
+
+/* I used !important because certain elements of my css for _theme_dark 
+were being overwritten by the rules of the css files they were being 
+imported to. If there is a better way to do this please let me know. */

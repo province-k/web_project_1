@@ -2,7 +2,11 @@
     display: flex;
     width: 1100px;
     flex-wrap: wrap;
-    margin: 0px auto 90px;
+    margin: 0px auto 90px !important;
     justify-content: space-between;
     list-style: none;
 }
+
+/* I used !important because certain elements of my css for _theme_dark 
+were being overwritten by the rules of the css files they were being 
+imported to. If there is a better way to do this please let me know. */
