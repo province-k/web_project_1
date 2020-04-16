@@ -16,5 +16,7 @@ Update typography
 Adding a form for comments
 ## Status
 Project is: *in progress*
+
+https://province-k.github.io/web_project_1/
 ## Contact
 created by [@province-k]()
